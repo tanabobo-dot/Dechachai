@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project – 1 July 2023 | Dechachai</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #002855;
+            color: #fff;
+            padding: 20px;
+        }
+        header a {
+            color: #cfe2ff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        header a:hover { text-decoration: underline; }
+
+        .container {
+            width: 80%;
+            margin: 25px auto 40px;
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px 25px 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 { margin-top: 0; }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 14px rgba(0,0,0,0.18);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div><a href="index.html">← Back to Home</a></div>
+    <h1>Epoxy Floor Project – 1 July 2023</h1>
+</header>
+
+<div class="container">
+    <p>
+        งานปรับพื้นและเคลือบ Epoxy สำหรับพื้นที่ภายในอาคาร รวมขั้นตอนการขัดพื้น ซ่อมพื้น แต้มร่อง
+        รื้อฝุ่น และเทเคลือบพื้นใหม่ให้ได้ผิวเงาเรียบ
+    </p>
+
+    <div class="gallery">
+        <img src="floor1.jpg" alt="Epoxy Floor 1">
+        <img src="floor2.jpg" alt="Epoxy Floor 2">
+        <img src="floor3.jpg" alt="Epoxy Floor 3">
+        <img src="floor4.jpg" alt="Epoxy Floor 4">
+        <img src="floor5.jpg" alt="Epoxy Floor 5">
+        <img src="floor6.jpg" alt="Epoxy Floor 6">
+        <img src="floor7.jpg" alt="Epoxy Floor 7">
+    </div>
+</div>
+
+</body>
+</html>
